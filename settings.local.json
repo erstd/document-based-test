@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm:*)",
+      "Bash(ls -la d:/Projects/portal-dict/backend/.env*)",
+      "Bash(ls -la d:/Projects/portal-dict/.env*)",
+      "Bash(docker --version)",
+      "Bash(winget --version)",
+      "Bash(choco --version)",
+      "Bash(curl -s http://localhost:8321/api/v1/tags -H \"X-User-Id: 83\" -w \"\\\\n%{http_code}\")",
+      "Bash(curl -s http://localhost:8321/api/v1/tags -H \"X-User-Id: 83\" -H \"Host: localhost\")",
+      "Bash(curl:*)",
+      "Bash(.venv/Scripts/python -m pytest ../tests/ -v --tb=short)",
+      "Bash(.venv/Scripts/python -m pytest ../tests/ -v --tb=short --ignore=../tests/test_guide_report_chart_runtime_distribution.py --ignore=../tests/test_guide_report_chart_runtime_process.py)",
+      "Bash(uv run:*)",
+      "Bash(.venv/Scripts/python -m pytest --version)",
+      "Bash(page_size=1 2>&1)",
+      "Bash(netstat -ano)",
+      "Bash(.venv/Scripts/python -m pytest tests/test_nodes_api.py -v --tb=short)",
+      "Bash(python -m pytest tests/test_nodes_api.py -v --tb=short)",
+      "Bash(ls D:/Projects/portal-dict/backend/.venv/Scripts/python*)",
+      "Bash(ls D:/Projects/portal-dict/backend/.venv/Scripts/*.exe)",
+      "Bash(D:/Projects/portal-dict/backend/.venv/Scripts/python.exe:*)",
+      "Bash(npx playwright:*)",
+      "Bash(node -e ':*)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(grep -l \"from \\\\.types import\" *.py)",
+      "Bash(python tests/test_nodes_crud_spec.py)",
+      "Bash(.venv/Scripts/python.exe -c \"import requests; print\\('requests installed'\\)\")",
+      "Bash(../backend/.venv/Scripts/python.exe tests/test_nodes_crud_spec.py)",
+      "Bash(pip install:*)",
+      "Bash(uv add:*)"
+    ]
+  }
+}
